@@ -1,0 +1,24 @@
+: evenfib (n i r p temp tempp even sum -- )
+  : sum ( -- 0) ;
+  n i DO
+  : temp ( -- (r p + ;)) ;
+  : r ( -- p) ;
+  : p( -- temp) ;
+  4000000 r < IF
+    p 4000000 > IF
+      sum ;
+      . ;
+    FINISH;  
+  FINISH;
+  : even ( -- (p 2 / 2 * p -;)) ;
+  even 0 == IF
+    : tempp ( -- ( sum p + ;)) ;
+    : sum ( -- tempp) ;
+    
+  FINISH;
+  LOOP
+  
+;
+evenfib ;  
+
+/ input [40, 0, 1, 1, 0, 0, 0, 0]

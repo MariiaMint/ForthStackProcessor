@@ -1,0 +1,113 @@
+[
+    {
+        "opcode": "PUSH",
+        "operand": "0"
+    },
+    {
+        "opcode": "STORE",
+        "operand": "0"
+    },
+    {
+        "opcode": "IN"
+    },
+    {
+        "opcode": "DUP"
+    },
+    {
+        "opcode": "PUSH",
+        "operand": "0"
+    },
+    {
+        "opcode": "CMP"
+    },
+    {
+        "opcode": "JUMP_IF_EQUAL",
+        "operand": " 13"
+    },
+    {
+        "opcode": "LOAD",
+        "operand": "0"
+    },
+    {
+        "opcode": "INC"
+    },
+    {
+        "opcode": "STORE",
+        "operand": "0"
+    },
+    {
+        "opcode": "LOAD",
+        "operand": "0"
+    },
+    {
+        "opcode": "STORE_TOP"
+    },
+    {
+        "opcode": "JUMP",
+        "operand": " 2"
+    },
+    {
+        "opcode": "PUSH",
+        "operand": "0"
+    },
+    {
+        "opcode": "LOAD",
+        "operand": "0"
+    },
+    {
+        "opcode": "INC"
+    },
+    {
+        "opcode": "STORE",
+        "operand": "0"
+    },
+    {
+        "opcode": "LOAD",
+        "operand": "0"
+    },
+    {
+        "opcode": "STORE_TOP"
+    },
+    {
+        "opcode": "PUSH",
+        "operand": "0"
+    },
+    {
+        "opcode": "INC"
+    },
+    {
+        "opcode": "STORE",
+        "operand": "0"
+    },
+    {
+        "opcode": "RET"
+    },
+    {
+        "opcode": "PUSH",
+        "operand": "1"
+    },
+    {
+        "opcode": "RET"
+    },
+    {
+        "opcode": "MAIN"
+    },
+    {
+        "opcode": "CALL",
+        "operand": " 2"
+    },
+    {
+        "opcode": "OUT"
+    },
+    {
+        "opcode": "CALL",
+        "operand": " 0"
+    },
+    {
+        "opcode": "RET"
+    },
+    {
+        "opcode": "CALL",
+        "operand": " 0"
+    }
+]

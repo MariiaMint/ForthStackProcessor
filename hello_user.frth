@@ -1,0 +1,6 @@
+
+: name ( -- INPUT) ;
+
+." What is your name?" ;
+." Hello, " ;
+. name ;
